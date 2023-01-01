@@ -1,13 +1,161 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+*{
+    font-family: 'Inter';
+    font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color: #000;
+}
+
+.main-about{
+    color: #fff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 10px;
+
+} 
+
+.title-about{
+    position: absolute;
+    margin: 35rem 40rem;
+    display: flex;
+}
+
+.description-about{
+    position: absolute;
+    margin: 33rem 30rem;
+    padding: 4rem 10rem 2rem 10rem;
+    display: flex;
+
+}
+
+.card-info{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #23252C;
+    height: 868px;
+    width: 550px;
+}
+
+.main-info{
+    background-color: #1A1B21;
+    width: 317px;
+    height: 399px;
+    color: #fff;
+    display: grid;
+    white-space: nowrap;
+    margin-top: 20rem;
+    padding-top: 3rem; 
+}
+
+.profile-pic{
+    width: 317px;
+    height: 317px;
+    margin-top: -19rem;
+    border-radius: 10px 10px 0px 0px;
+}
+.name-info{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 19rem;
+    margin-left: 2.5rem;
+}
+.job-info{
+    font-size: 12.8px;
+    color: #F3BF99;
+    font-weight: 400;
+    margin-left: 6rem;
+    margin-top: -20rem; 
+}
+
+.email-info{
+    font-size: 10.24px;
+    font-weight: 400;
+    margin-left: 6rem;
+    margin-top: -19rem;
+    line-height: 1;
+}
+
+.buttons-info{
+    display: flex;
+    position: absolute;
+    margin-top: 30rem;
+}
+
+.email-button-info{
+    padding: 9px;
+    width: 115px;
+    height: 34px;
+    border: 1px solid  #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.0.5);
+    border-radius: 6px;
+    margin-right: 20px;
+    font-size: 14px;
+} 
+
+.email-text{
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.linkedIn-button-info{
+    background-color: #5093E2;
+    color: #fff;
+    padding: 9px;
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border-color: #5093E2;
+    font-size: 14px;
+    
+}
+
+.linkedIn-text{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main-interests{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-weight: 100;
+    font-size: 10px;
+
+}
+.description-interests{
+    grid-row-start: 2;
+    margin: -26rem 25rem;
+    padding: 15rem;
+}
+
+.title-interests{
+    position: absolute;
+    margin: -13rem 40rem;
+    display: flex;
+}
+
+.main-footer{
+    position: absolute;
+    top: 49rem;
+    left: 37.6rem;
+    width: 317px;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
